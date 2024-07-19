@@ -108,6 +108,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf4b9d6a944f767f8e5e0db018570623c85f3d925ac718db4e06d0187adb21c1"
 
 [[package]]
+name = "bug-repro"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "llama-cpp-2",
+]
+
+[[package]]
 name = "cc"
 version = "1.0.105"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -1,0 +1,11 @@
+[package]
+name = "bug-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+llama-cpp-2 = { path = "../llama-cpp-2" }
+clap = { workspace = true, features = ["derive"] }
+
+[lints]
+workspace = true
